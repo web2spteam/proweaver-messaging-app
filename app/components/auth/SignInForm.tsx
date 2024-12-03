@@ -74,7 +74,7 @@ function SignInForm() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="block w-full appearance-none rounded-md border border-gray-300 bg-transparent px-3 py-2 shadow-sm placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
+              className="block w-full appearance-none rounded-md border border-gray-300 bg-transparent px-3 py-2 shadow-sm placeholder:text-gray-400 focus:border-[#644d9f] focus:outline-none focus:ring-[#644d9f] sm:text-sm"
             />
           </div>
         </div>
@@ -96,7 +96,7 @@ function SignInForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
-              className="block w-full appearance-none rounded-md border border-gray-300 bg-transparent px-3 py-2 shadow-sm placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-cyan-500 sm:text-sm"
+              className="block w-full appearance-none rounded-md border border-gray-300 bg-transparent px-3 py-2 shadow-sm placeholder:text-gray-400 focus:border-[#644d9f] focus:outline-none focus:ring-[#644d9f] sm:text-sm"
             />
           </div>
         </div>
@@ -107,7 +107,7 @@ function SignInForm() {
               id="remember-me"
               name="remember-me"
               type="checkbox"
-              className="size-4 rounded border-gray-300 text-cyan-400 focus:ring-cyan-400"
+              className="size-4 rounded border-gray-300 text-[#644d9f] focus:ring-[#644d9f]"
             />
             <label
               htmlFor="remember-me"
@@ -120,7 +120,7 @@ function SignInForm() {
           <div className="text-sm">
             <a
               href="#"
-              className="font-medium text-cyan-400 hover:text-black"
+              className="font-medium text-[#f74e1f] hover:text-[#644d9f]"
             >
               Forgot your password?
             </a>
@@ -130,7 +130,7 @@ function SignInForm() {
         <div>
           <button
             type="submit"
-            className="flex w-full justify-center rounded-md border border-transparent bg-cyan-400 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:hover:border-cyan-300"
+            className="flex w-full justify-center rounded-md border border-transparent bg-[#644d9f] px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-[#f74e1f] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:hover:border-[#644d9f]"
           >
             Sign in
           </button>

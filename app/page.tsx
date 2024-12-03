@@ -27,14 +27,14 @@ export default function Home() {
                   alt="CollabLearn"
                 />
                 <h2 className="mt-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
-                  Sign in to <span className="text-red-500">Pro</span><span className="text-cyan-400">Messaging</span>
+                  Sign in to <span className="text-[#f74e1f]">Pro</span><span className="text-[#644d9f]">Messaging</span>
                 </h2>
               </div>
 
               <div className="mt-8">
                 <div>
                   <SignInForm />
-                  <p className="mt-10 text-sm text-gray-500 dark:text-white">
+                  {/* <p className="mt-10 text-sm text-gray-500 dark:text-white">
                     Not registered yet?
                     <a
                       href="/sign-up"
@@ -42,14 +42,14 @@ export default function Home() {
                     >
                       Sign Up
                     </a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
           </div>
 
           {/* Right side with image */}
-          <div className="relative hidden w-0 flex-1 bg-gray-50 dark:bg-black lg:block">
+          <div className="relative hidden w-0 flex-1 bg-gray-50 dark:bg-[#644d9f]/75 lg:block">
             <Image
               src={landingPageImage}
               alt="Login Side Image"

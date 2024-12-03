@@ -1,28 +1,28 @@
 {
-  "name": "CollabLearn for ALS",
-  "short_name": "CollabLearn",
-  "theme_color": "#2e76da",
+  "name": "Proweaver Message App",
+  "short_name": "ProMessaging",
+  "theme_color": "#f74e1f",
   "background_color": "#FFFFFF",
-  "id": "collablearn-c370e",
+  "id": "promessaging-c370e",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
 
-  "description": "Utilizing Collaborative Tools for Alternative Learning System",
+  "description": "This is a Proweaver Messaging Platform",
   "screenshots": [
     {
       "src": "screenshot1.png",
       "sizes": "668x320",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "CollabLearn 1"
+      "label": "ProMessaging 1"
     },
     {
       "src": "screenshot2.png",
       "sizes": "320x545",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "CollabLearn 2"
+      "label": "ProMessaging 2"
     }
   ],
   "icons": [
