@@ -5,9 +5,9 @@ import "./globals.css";
 
 const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"] });
 
-const APP_NAME = "Proweaver Message App";
-const APP_DEFAULT_TITLE = "Proweaver Message App";
-const APP_TITLE_TEMPLATE = "%s | Proweaver Message App";
+const APP_NAME = "Proweaver Messaging App";
+const APP_DEFAULT_TITLE = "Proweaver Messaging";
+const APP_TITLE_TEMPLATE = "%s | Proweaver Messaging";
 const APP_DESCRIPTION =
   "This is a Proweaver Messaging Platform";
 
