@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import { DarkThemeToggle } from "flowbite-react";
 
 export const metadata: Metadata = {
-  title: "Sign In | CollabLearn",
+  title: "Sign In | ProMessaging",
 };
 
 export default function Home() {
