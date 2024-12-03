@@ -15,7 +15,7 @@ const Notifications = () => {
             <button className="text-lg text-gray-400 hover:text-white">All</button>
             <button className="text-lg font-bold text-white">
               New Tasks{" "}
-              <span className="rounded-full bg-red-500 px-2 py-0 text-sm text-black">
+              <span className="rounded-full bg-[#f74e1f] px-2 py-0 text-sm text-black">
                 1
               </span>
             </button>
